@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+nav{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfbfbcc;
+    position: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0px 10px;
+    font-size: 12px;
+}
+
+nav i{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+/* hero */
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    height: 692px;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/apple-shopping-event-2023/hero_ase2023__fajyx7tk70a6_largetall.jpg);
+    background-position: center;
+    margin-bottom: 15px;
+    
+}
+.hero h1 {
+    font-size: 60px;
+    font-weight: 550;
+
+}
+
+.hero p{
+    font-size: 32px;
+    width: 26%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 37px;
+    
+}
+
+
+
+
+
+
+
+
+
+.hero span{
+    color: rgb(159, 204, 219);
+    margin: 10px 0;
+    font-size: 20px;
+}
+.hero a{
+    font-size: 20px;
+    text-decoration: none;
+}
+/* hero2 */
+.hero2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    height: 692px;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.hero2 a i{
+    font-size: 12px;
+}
+.hero2 h1 {
+    font-size: 60px;
+    font-weight: 550;
+    color: #fff;
+
+}
+
+
+
+
+.hero2 span{
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 560;
+}
+.hero2 .display{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    height: 30px;
+}
+.hero2 a{
+    font-size: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(73, 73, 246);
+}
+
+
+/* hero3 */
+.hero3 .movie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 460px;
+    width: 100%;
+    height: 692px;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/tv-plus-monarch/hero_monarch__e0t8lqi77g6e_largetall.jpg);
+    background-position: center;
+    margin-bottom: 15px;
+}
+.hero3 .tv{
+    background-image: url(https://www.apple.com/v/home/bf/images/logos/tv-plus/logo_light__cfvl40z2nzau_large.png);
+    background-position: center;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin: 60px 48% 0px
+}
+.hero3 i{
+    font-size: 22px;
+}
+.hero3 h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+
+
+
+
+.hero3 span{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 550;
+}
+.hero3 p{
+    font-size: 35px;
+    font-weight: 550;
+    color: #fff;
+}
+
+
+.hero3 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* promo */
+.promo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.promo_mini{
+    cursor: pointer;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+}
+.promo_mini h1{
+    font-size: 49px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 37px;
+    padding-top: 50px;
+}
+
+
+.promo_mini p{
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+    font-size: 20px;
+}
+.promo_mini a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 245);
+}
+
+
+
+.promo_mini i {
+    color: blue;
+}
+.promo_img1 span{
+    font-size: 30px;
+}
+.promo_img1 .name{
+    background-image: url(https://www.apple.com/v/home/bf/images/logos/apple-watch-series-9/promo_logo_apple_watch_series_9__ckz0hbex0yeu_large.png);
+    background-position: center;
+    width: 137px;
+    margin: 70px 40% 0;
+    height: 50px;
+    
+}
+.promo_img5 .name{
+    background-image: url(https://www.apple.com/v/home/bf/images/logos/apple-card/logo__dcojfwkzna2q_large.png);
+    background-position: center;
+    width: 110px;
+    margin: 70px 40% 0;
+    height: 30px;
+}
+.promo_img6 .name{
+    background-image: url(https://www.apple.com/v/home/bf/images/logos/iphone-tradein/logo_tradein__d1fpktgipvki_large.png);
+    background-position: center;
+    margin: 70px 40% 0;
+    width: 153px;
+    height: 30px;
+}
+.promo_img1 h1,span{
+    color: #fff;
+}
+
+.promo_img1{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+    background-position: center;
+}
+
+.promo_img2{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+    background-position: center;
+}
+
+.promo_img3{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/holiday-2023/holiday_2023_promo__dirvdl6a3r2a_large.jpg);
+    background-position: center;
+}
+
+.promo_img4{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large.jpg);
+    background-position: center;
+}
+.promo_img5{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+    background-position: center;
+}
+
+.promo_img6{
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-position: center;
+}
+
+.more_words{
+    width: 900px;
+    margin: 0 20%;
+    color: lightslategray;
+
+}
+
+
+
+.line{
+    width: 80%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: black;
+}
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer ul li{
+    list-style: none;
+    
+}
+
+footer a{
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+h4{
+    margin: 5px 0 5px 0;
+    font-weight: 650;
+    font-size: 20px;
+
+}
+
+.other ,.other2{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 440;
+    color: lightgrey;
+}
